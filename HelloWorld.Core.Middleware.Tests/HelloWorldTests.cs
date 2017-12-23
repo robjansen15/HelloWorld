@@ -13,9 +13,13 @@ namespace HelloWorld.Core.Middleware.Tests
         /// One shortcoming is that if too much dependency falls on the middleware we may become fragile
         /// To avoid this I would continuously refactor and continue abstract components out as they make sense.
         /// </summary>
+
+            
         [TestMethod]
         public void HelloWorldTest()
         {
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
             string msg = Handler.Handle(@"D:\Development\Interview\HelloWorld\HelloWorld.json");
             Assert.AreEqual(msg, "Hello World!");
         }
@@ -23,6 +27,8 @@ namespace HelloWorld.Core.Middleware.Tests
         [TestMethod]
         public void HolaWorldTest()
         {
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
             string msg = Handler.Handle(@"D:\Development\Interview\HelloWorld\HolaWorld.json");
             Assert.AreEqual(msg, "Hola World!");
         }
@@ -30,6 +36,8 @@ namespace HelloWorld.Core.Middleware.Tests
         [TestMethod]
         public void BonjourWorldTest()
         {
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
             string msg = Handler.Handle(@"D:\Development\Interview\HelloWorld\BonjourWorld.json");
             Assert.AreEqual(msg, "Bonjour World!");
         }

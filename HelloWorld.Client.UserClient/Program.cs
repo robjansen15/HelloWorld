@@ -14,6 +14,8 @@ namespace HelloWorld.Client.UserClient
             // THIS IS TO MEET THE BUSINESS REQUIREMENTS
             // Write “Hello World” to the console/screen. 
 
+            //THESE FILES CAN BE FOUND AT THE ROOT OF THE PROJECT
+
             Console.WriteLine(Handler.Handle(@"D:\Development\Interview\HelloWorld\HelloWorld.json"));
             Console.WriteLine(Handler.Handle(@"D:\Development\Interview\HelloWorld\HolaWorld.json"));
             Console.WriteLine(Handler.Handle(@"D:\Development\Interview\HelloWorld\BonjourWorld.json"));
